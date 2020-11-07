@@ -1,0 +1,13 @@
+package com.paez.edwin.appregio;
+
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class AcercadeActivity extends Activity {
+    @Override public void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.acerca_de);
+    }
+
+}
